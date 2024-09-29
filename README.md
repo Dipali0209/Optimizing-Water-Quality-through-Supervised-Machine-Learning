@@ -1,12 +1,12 @@
 # Optimizing Water Quality through Supervised Machine Learning
 
-### 📝 **Project Summary**
+###  **Project Summary**
 Ensuring water quality is critical for protecting **public health** and **environmental sustainability**. This project evaluates the effectiveness of **Supervised Machine Learning** models in predicting the **Water Quality Index (WQI)** and classifying **Water Quality** into five categories. The study employs advanced regression and classification models to offer a reliable and efficient approach for **environmental monitoring**.
 
-### 🔍 **Problem Statement**
+###  **Problem Statement**
 Traditional water quality assessment methods are often resource-intensive and slow, lacking the precision needed for real-time monitoring. This project seeks to improve the **accuracy** and **efficiency** of water quality predictions by using **Machine Learning** models to automate both **WQI prediction** and **Water Quality Classification (WQC)**.
 
-### 📊 **Dataset**
+###  **Dataset**
 The dataset used for this study is sourced from [Kaggle](https://www.kaggle.com/), containing 3,276 samples with 10 major water quality parameters:
 - **pH**
 - **Hardness**
@@ -18,7 +18,7 @@ The dataset used for this study is sourced from [Kaggle](https://www.kaggle.com/
 - **Trihalomethanes**
 - **Turbidity**
 
-### 🚀 **Project Approach**
+###  **Project Approach**
 
 #### 1. Data Preprocessing
 - **Data Imputation**: Handled missing values using **kNN imputation** from Scikit-learn, which substitutes missing data based on similar nearby observations.
@@ -39,7 +39,7 @@ The dataset used for this study is sourced from [Kaggle](https://www.kaggle.com/
   - Support Vector Machine (SVM)
   - Multi-Layer Perceptron (MLP)
 
-### 🔑 **Key Findings**
+###  **Key Findings**
 
 #### WQI Prediction (Regression Models)
 - The **Random Forest Regressor** achieved the highest accuracy with an **R² score of 0.996**, outperforming all other models.
@@ -49,7 +49,7 @@ The dataset used for this study is sourced from [Kaggle](https://www.kaggle.com/
 - The **Decision Tree Classifier** led with an accuracy of **96.34%**, closely followed by **GBR (96.04%)** and **Random Forest (94.82%)**.
 - The models demonstrated high **Precision**, **Recall**, and **F1 Scores**, making them effective for classifying water quality across multiple categories (Excellent, Good, Poor, Very Poor, Unsafe).
 
-### 📊 **Evaluation Metrics**
+###  **Evaluation Metrics**
 
 #### Regression Model Performance (WQI Prediction)
 
@@ -71,19 +71,19 @@ The dataset used for this study is sourced from [Kaggle](https://www.kaggle.com/
 | MLP              | 89.63%      | 0.898      | 0.896      | 0.894     |
 | SVM              | 71.34%      | 0.716      | 0.713      | 0.711     |
 
-### 📈 **Results and Visualizations**
+### **Results and Visualizations**
 
 - **Figure 1**: Comparative performance of regression models for WQI prediction.
 <p align="center">
-  <img src="path_to_image/figure1a.png" alt="Figure 1a" width="400" />
-  <img src="path_to_image/figure1b.png" alt="Figure 1b" width="400" />
+  <img src="DT_R.png" alt="Figure 1a : Decision Tree Regressor" width="400" />
+  <img src="RF_R.png" alt="Figure 1b : Random Forest Regressor" width="400" />
 </p>
 
 - **Figure 2**: Receiver Operating Characteristic (ROC) Curve and Precision-Recall Curve for **Decision Tree Classifier**.
 
 <p align="center">
-  <img src="path_to_image/figure2a.png" alt="Figure 2a" width="400" />
-  <img src="path_to_image/figure2b.png" alt="Figure 2b" width="400" />
+  <img src="DT_ROC.png" alt="Figure 2a : ROC curve" width="400" />
+  <img src="DT_PRC.png" alt="Figure 2b : Precision-Recall Curve" width="400" />
 </p>
 
 
@@ -93,10 +93,10 @@ The dataset used for this study is sourced from [Kaggle](https://www.kaggle.com/
 - **Imputation**: kNN Imputer
 - **Scaling**: StandardScaler
 
-### 🌍 **Impact**
+### **Impact**
 This project highlights the potential of **Machine Learning** in automating water quality monitoring and analysis. The study provides a robust solution for **real-time environmental monitoring**, allowing authorities to quickly identify water quality issues and make data-driven decisions to protect public health.
 
-### 📈 **Future Work**
+###  **Future Work**
 - Incorporating additional datasets for real-time water quality monitoring.
 - Exploring **deep learning** methods for further improvement in prediction accuracy.
 - Developing a web-based tool for live water quality tracking.
