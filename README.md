@@ -74,8 +74,18 @@ The dataset used for this study is sourced from [Kaggle](https://www.kaggle.com/
 ### 📈 **Results and Visualizations**
 
 - **Figure 1**: Comparative performance of regression models for WQI prediction.
-  
+<p align="center">
+  <img src="path_to_image/figure1a.png" alt="Figure 1a" width="400" />
+  <img src="path_to_image/figure1b.png" alt="Figure 1b" width="400" />
+</p>
+
 - **Figure 2**: Receiver Operating Characteristic (ROC) Curve and Precision-Recall Curve for **Decision Tree Classifier**.
+
+<p align="center">
+  <img src="path_to_image/figure2a.png" alt="Figure 2a" width="400" />
+  <img src="path_to_image/figure2b.png" alt="Figure 2b" width="400" />
+</p>
+
 
 ### 🔧 **Tools and Technologies**
 - **Languages**: Python
