@@ -72,6 +72,7 @@ The dataset used for this study is sourced from [Kaggle](https://www.kaggle.com/
 | SVM              | 71.34%      | 0.716      | 0.713      | 0.711     |
 
 ### 📈 **Results and Visualizations**
+
 - **Figure 1**: Comparative performance of regression models for WQI prediction.
   
 - **Figure 2**: Receiver Operating Characteristic (ROC) Curve and Precision-Recall Curve for **Decision Tree Classifier**.
